@@ -20,7 +20,7 @@ export default function Mocktail({setsearchdrink , searchdrink}){
   
     return(
         <div className="">
-      {drinks.length>0?drinks.map((drink) =>( 
+      {drinks?.length>0?drinks.map((drink) =>( 
         <div key={drink.idDrink} className="p-[20px] m-[20px] bg-[url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')] flex justify-around items-center flex-wrap rounded-2xl ">
           <div className="img-side flex flex-col justify-center items-center font-bold text-2xl gap-5">
          <img src={drink.strDrinkThumb} alt="pick" className="rounded-2xl h-[400px] w-[400px]" height="400px" width="400px" />
