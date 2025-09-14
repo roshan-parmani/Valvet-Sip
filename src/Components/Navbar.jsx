@@ -7,7 +7,7 @@ export default function Navbar(){
             <div className="rig-side text-white text-2xl flex flex-wrap gap-14">
               <ul className="flex gap-8 flex-wrap items-center justify-center">
                 <li>About Us</li>
-                <li>Contect Us</li>
+                <li>Contact Us</li>
               </ul>
               <button className="cursor-pointer bg-blue-950 rounded-2xl h-[45px] w-[140px] ">Sign In</button>
             </div>
